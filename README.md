@@ -2,11 +2,11 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-More features will soon be indcluded in this repository. Please feel free to provide your suggestions by opening an issue report or dropping me an email (yanz11@rpi.edu). Enjoy reading!
+More features will soon be indcluded in this repository. Please feel free to provide your suggestions by opening an issue report or dropping me an email (yanz11@rpi.edu).
 
 
 |Paper|Venue|Year|
-|---|---|---|---|
+|---|---|---|
 |[Bandits with unobserved confounders: A causal approach](https://proceedings.neurips.cc/paper/2015/hash/795c7a7a5ec6b460ec00c5841019b9e9-Abstract.html) | NeurIPS| 2015|
 |[Causal bandits: Learning good interventions via causal inference](https://proceedings.neurips.cc/paper/2016/hash/b4288d9c0ec0a1841b3b3728321e7088-Abstract.html) | NeurIPS| 2016|
 |[Identifying best interventions through online importance sampling](https://proceedings.mlr.press/v70/sen17a.html)| ICML| 2017|
