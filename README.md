@@ -16,7 +16,7 @@ More features will soon be indcluded in this repository. Please feel free to pro
 |[A causal bandit approach to learning good atomic interventions in presence of unobserved confounders](https://proceedings.mlr.press/v180/maiti22a.html)| UAI | 2022|
 |[Combinatorial Pure Exploration of Causal Bandits](https://openreview.net/forum?id=pBBsrPzq7aF)| ICLR | 2023|
 |[Combinatorial causal bandits](https://ojs.aaai.org/index.php/AAAI/article/view/25917)| AAAI | 2023|
-|[Learning Good Interventions in Causal Graphs via Covering]| UAI | 2023|
+|[Learning Good Interventions in Causal Graphs via Covering](https://dl.acm.org/doi/10.5555/3625834.3626005)| UAI | 2023|
 |[Causal bandits with unknown graph structure](https://proceedings.neurips.cc/paper/2021/hash/d010396ca8abf6ead8cacc2c2f2f26c7-Abstract.html)| NeurIPS | 2021|
 |[Adaptively exploiting d-separators with causal bandits](https://proceedings.neurips.cc/paper_files/paper/2022/hash/801ec05b0aae9fcd2ef35c168bd538e0-Abstract-Conference.html) | NeurIPS | 2022|
 |[Causal bandits without prior knowledge using separating sets](https://proceedings.mlr.press/v177/kroon22a.html) | CLeaR| 2022|
