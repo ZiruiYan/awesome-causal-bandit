@@ -4,6 +4,12 @@
 
 More features will soon be indcluded in this repository. Please feel free to provide your suggestions by opening an issue report or dropping me an email (yanz11@rpi.edu).
 
+## What are causal bandit?
+Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$ where $V$ is the set of vertices and $E$ is the set of edges.
+
+### Reward
+Nomally the last node $X_N$ is defined as reward.
+
 
 |Paper|Venue|Year|
 |---|---|---|
