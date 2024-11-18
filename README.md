@@ -11,6 +11,7 @@ Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$
 Nomally the last node $X_N$ is defined as reward.
 
 
+## List of causal bandit papers
 |Paper|Venue|Year|
 |---|---|---|
 |[Bandits with unobserved confounders: A causal approach](https://proceedings.neurips.cc/paper/2015/hash/795c7a7a5ec6b460ec00c5841019b9e9-Abstract.html) | NeurIPS| 2015|
