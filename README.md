@@ -14,6 +14,13 @@ Nomally the last node $X_N$ is defined as reward.
 ## List of causal bandit papers
 |Paper|Venue|Year|
 |---|---|---|
+|[Linear Causal Bandits: Unknown Graph and Soft Interventions](https://nips.cc/virtual/2024/poster/95325) | NeurIPS| 2024|
+|[Partial Structure Discovery is Sufficient for No-regret Learning in Causal Bandits](https://nips.cc/virtual/2024/poster/93277) | NeurIPS| 2024|
+|[Improved Bound for Robust Causal Bandits with Linear Models](https://arxiv.org/pdf/2405.07795v1) | ISIT| 2024|
+|[Graph Identification and Upper Confidence Evaluation for Causal Bandits with Linear Models](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10445823) | ICASSP| 2024|
+|[Causal Contextual Bandits with Adaptive Context](https://arxiv.org/pdf/2405.18626) | arXiv| 2024|
+|[Adversarial Causal Bayesian Optimization](https://openreview.net/pdf?id=YcW8i9VCf5) | ICLR| 2024|
+|[Model-based causal Bayesian optimization](https://arxiv.org/pdf/2211.10257) | ICLR| 2023|
 |[Bandits with unobserved confounders: A causal approach](https://proceedings.neurips.cc/paper/2015/hash/795c7a7a5ec6b460ec00c5841019b9e9-Abstract.html) | NeurIPS| 2015|
 |[Causal bandits: Learning good interventions via causal inference](https://proceedings.neurips.cc/paper/2016/hash/b4288d9c0ec0a1841b3b3728321e7088-Abstract.html) | NeurIPS| 2016|
 |[Identifying best interventions through online importance sampling](https://proceedings.mlr.press/v70/sen17a.html)| ICML| 2017|
