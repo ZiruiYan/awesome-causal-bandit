@@ -5,10 +5,23 @@
 More features will soon be indcluded in this repository. Please feel free to provide your suggestions by opening an issue report or dropping me an email (yanz11@rpi.edu).
 
 ## What are causal bandit?
-Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$ where $V$ is the set of vertices and $E$ is the set of edges.
+Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$ where $V$ is the set of vertices and $E$ is the set of edges. A directed edge from node $i$ to node $j$ is denoted by ordered tuple $(i,j)$. The set of parents of node $i$ is denoted by ${\rm pa}_i$.
+
+
+### Data Model
+DAG $\mathcal{G}$ represents a Bayesian network, in which we denote the causal random variable associated with node $i\in V$ by $X_i$. The relationships amont the causal variables $X$ are specified by SEMSs:
+$$X_i = f(X_{\rm pa(i)})+\epsilon_i, $$
+where $\epsilon_i$ is some noise.
 
 ### Reward
-Nomally the last node $X_N$ is defined as reward.
+Nomally the last node $X_N$ is defined as reward. The goal is to minimize the cumulative regret over horizon $T$
+$$E[R(T)] = T\mu_a^{*} - \sum_{t=1}^{T}\mu_{a(t)}$$
+
+### Key Assumptions
+
+(a) Extent of information aviliable about topology
+(b) Extent of information about conditional distributions
+(c) Nature of interventions (soft, hard, do)
 
 
 ## List of causal bandit papers
