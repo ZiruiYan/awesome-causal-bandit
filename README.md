@@ -2,9 +2,12 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-More features will soon be indcluded in this repository. Please feel free to provide your suggestions by opening an issue ticket or dropping me an email (yanz11@rpi.edu).
+
 
 ## What are causal bandit?
+### TL;DR
+A *causal bandit* is an extension of the classic multi-armed bandit (MAB) problem that incorporates the concept of causality to make better decisions in uncertain environment. A causal bandit aims to not only maximize rewards but also understand the causal relationships between actions and outcomes. This means it learns how different actions influence future outcomes, potentially leading to more informed, long-term decision-making.
+
 Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$ where $V$ is the set of vertices and $E$ is the set of edges. A directed edge from node $i$ to node $j$ is denoted by ordered tuple $(i,j)$. The set of parents of node $i$ is denoted by ${\rm pa}_i$.
 
 
@@ -53,3 +56,7 @@ $$E[R(T)] = T\mu_a^{*} - \sum_{t=1}^{T}\mu_{a(t)}$$
 |[Causal bandits for linear structural equation models](https://www.jmlr.org/papers/volume24/22-0969/22-0969.pdf) | JMLR| 2023 |
 |[Model-based causal Bayesian optimization](https://iclr.cc/virtual/2023/oral/14239)| ICLR | 2023 |
 |[Robust Causal Bandits for Linear Models](https://arxiv.org/abs/2310.19794)| arXiv | 2023|
+
+
+## Contact
+opening an issue or dropping me an email (yanz11@rpi.edu).
