@@ -31,6 +31,7 @@ The papers can be grouped according to different assumptions.
 ## List of causal bandit papers
 |Paper|Venue|Year|
 |---|---|---|
+|[Structural Causal Bandits with Non-Manipulable Variables](https://ojs.aaai.org/index.php/AAAI/article/view/4320)| AAAI |2019|
 |[Linear Causal Bandits: Unknown Graph and Soft Interventions](https://nips.cc/virtual/2024/poster/95325) | NeurIPS| 2024|
 |[Partial Structure Discovery is Sufficient for No-regret Learning in Causal Bandits](https://nips.cc/virtual/2024/poster/93277) | NeurIPS| 2024|
 |[Improved Bound for Robust Causal Bandits with Linear Models](https://arxiv.org/pdf/2405.07795v1) | ISIT| 2024|
