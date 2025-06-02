@@ -17,10 +17,12 @@ $$X_i = f(X_{\rm pa(i)})+\epsilon_i, $$
 where $\epsilon_i$ is some noise and $\rm pa(i)$ is the set of parents of node $i$ in $\mathcal{G}$.
 
 ### Reward
-Nomally the last node $X_N$ is defined as reward. The goal is to minimize the cumulative regret over horizon $T$
-$$E[R(T)] = T\mu_a^{*} - \sum_{t=1}^{T}\mu_{a(t)}$$
+Without loss of generality, the sink node $X_N$ is defined as the reward node. The goal is to minimize the cumulative regret over horizon $T$:
+
+$$E[R(T)] = T\mu_a^{*} - \sum_{t=1}^{T}\mu_{a(t)} \ .$$
 
 ### Key Assumptions
+The papers can be grouped according to different assumptions.
 (a) Extent of information aviliable about topology
 (b) Extent of information about conditional distributions
 (c) Nature of interventions (soft, hard, do)
