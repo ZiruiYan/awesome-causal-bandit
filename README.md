@@ -14,14 +14,13 @@ Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$
 ### Data Model
 DAG $\mathcal{G}$ represents a Bayesian network, in which we denote the causal random variable associated with node $i\in V$ by $X_i$. The relationships amont the causal variables $X$ are specified by SEMSs:
 $$X_i = f(X_{\rm pa(i)})+\epsilon_i, $$
-where $\epsilon_i$ is some noise.
+where $\epsilon_i$ is some noise and $\rm pa(i)$ is the set of parents of node $i$ in $\mathcal{G}$.
 
 ### Reward
 Nomally the last node $X_N$ is defined as reward. The goal is to minimize the cumulative regret over horizon $T$
 $$E[R(T)] = T\mu_a^{*} - \sum_{t=1}^{T}\mu_{a(t)}$$
 
 ### Key Assumptions
-
 (a) Extent of information aviliable about topology
 (b) Extent of information about conditional distributions
 (c) Nature of interventions (soft, hard, do)
@@ -59,4 +58,4 @@ $$E[R(T)] = T\mu_a^{*} - \sum_{t=1}^{T}\mu_{a(t)}$$
 
 
 ## Contact
-opening an issue or dropping me an email (yanz11@rpi.edu).
+Opening an issue or dropping me an email (yanz11@rpi.edu).
