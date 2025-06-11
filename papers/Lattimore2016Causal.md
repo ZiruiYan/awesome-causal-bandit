@@ -4,7 +4,8 @@
 
 **Authors:** Finnian Lattimore, Tor Lattimore, Mark D. Reid  
 **Year:** 2016  
-**Conference:** Advances in Neural Information Processing Systems (NeurIPS)
+**Conference:** Advances in Neural Information Processing Systems (NeurIPS)  
+**Paper Link:** [View on NeurIPS](https://proceedings.neurips.cc/paper/2016/hash/b4288d9c0ec0a1841b3b3728321e7088-Abstract.html)
 
 ---
 
