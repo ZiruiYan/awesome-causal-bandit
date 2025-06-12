@@ -29,35 +29,35 @@ The papers can be grouped according to different assumptions.
 
 
 ## List of causal bandit papers
-|Paper|Venue|Year|
-|---|---|---|
-|[Causal bandits: Learning good interventions via causal inference](papers/Lattimore2016Causal.md) | NeurIPS| 2016|
-|[Structural Causal Bandits with Non-Manipulable Variables](https://ojs.aaai.org/index.php/AAAI/article/view/4320)| AAAI |2019|
-|[Linear Causal Bandits: Unknown Graph and Soft Interventions](https://nips.cc/virtual/2024/poster/95325) | NeurIPS| 2024|
-|[Partial Structure Discovery is Sufficient for No-regret Learning in Causal Bandits](https://nips.cc/virtual/2024/poster/93277) | NeurIPS| 2024|
-|[Improved Bound for Robust Causal Bandits with Linear Models](https://arxiv.org/pdf/2405.07795v1) | ISIT| 2024|
-|[Graph Identification and Upper Confidence Evaluation for Causal Bandits with Linear Models](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10445823) | ICASSP| 2024|
-|[Causal Contextual Bandits with Adaptive Context](https://arxiv.org/pdf/2405.18626) | arXiv| 2024|
-|[Adversarial Causal Bayesian Optimization](https://openreview.net/pdf?id=YcW8i9VCf5) | ICLR| 2024|
-|[Model-based causal Bayesian optimization](https://arxiv.org/pdf/2211.10257) | ICLR| 2023|
-|[Bandits with unobserved confounders: A causal approach](https://proceedings.neurips.cc/paper/2015/hash/795c7a7a5ec6b460ec00c5841019b9e9-Abstract.html) | NeurIPS| 2015|
-|[Identifying best interventions through online importance sampling](https://proceedings.mlr.press/v70/sen17a.html)| ICML| 2017|
-|[Regret analysis of bandit problems with causal background knowledge](https://proceedings.mlr.press/v124/lu20a.html)| UAI| 2020|
-|[Budgeted and non-budgeted causal bandits](https://proceedings.mlr.press/v130/nair21a.html)| AISTATS| 2021|
-|[Causal bandits with propagating inference](https://proceedings.mlr.press/v80/yabe18a.html)| ICML | 2018|
-|[A causal bandit approach to learning good atomic interventions in presence of unobserved confounders](https://proceedings.mlr.press/v180/maiti22a.html)| UAI | 2022|
-|[Combinatorial Pure Exploration of Causal Bandits](https://openreview.net/forum?id=pBBsrPzq7aF)| ICLR | 2023|
-|[Combinatorial causal bandits](https://ojs.aaai.org/index.php/AAAI/article/view/25917)| AAAI | 2023|
-|[Learning Good Interventions in Causal Graphs via Covering](https://dl.acm.org/doi/10.5555/3625834.3626005)| UAI | 2023|
-|[Causal bandits with unknown graph structure](https://proceedings.neurips.cc/paper/2021/hash/d010396ca8abf6ead8cacc2c2f2f26c7-Abstract.html)| NeurIPS | 2021|
-|[Adaptively exploiting d-separators with causal bandits](https://proceedings.neurips.cc/paper_files/paper/2022/hash/801ec05b0aae9fcd2ef35c168bd538e0-Abstract-Conference.html) | NeurIPS | 2022|
-|[Causal bandits without prior knowledge using separating sets](https://proceedings.mlr.press/v177/kroon22a.html) | CLeaR| 2022|
-|[Combinatorial Causal Bandits without Graph Skeleton](https://arxiv.org/abs/2301.13392)| arXiv | 2023 |
-|[Causal Bandits without Graph Learning](https://arxiv.org/abs/2301.11401)| arXiv | 2023 |
-|[Additive Causal Bandits with Unknown Graph](https://dl.acm.org/doi/10.5555/3618408.3619393)| ICML | 2023 | 
-|[Causal bandits for linear structural equation models](https://www.jmlr.org/papers/volume24/22-0969/22-0969.pdf) | JMLR| 2023 |
-|[Model-based causal Bayesian optimization](https://iclr.cc/virtual/2023/oral/14239)| ICLR | 2023 |
-|[Robust Causal Bandits for Linear Models](https://arxiv.org/abs/2310.19794)| arXiv | 2023|
+|Title|Venue|Intervention|Graph topology|Metric|Comment|Year|Materials|
+|---|---|---|---|---|---|---|---|
+|Causal bandits: Learning good interventions via causal inference | NeurIPS| | | | | 2016 |[Paper](papers/Lattimore2016Causal.md)|
+|Structural Causal Bandits with Non-Manipulable Variables| AAAI | | | | | 2019 |[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4320)|
+|Linear Causal Bandits: Unknown Graph and Soft Interventions | NeurIPS| | | | | 2024 |[Paper](https://nips.cc/virtual/2024/poster/95325)|
+|Partial Structure Discovery is Sufficient for No-regret Learning in Causal Bandits | NeurIPS| | | | | 2024 |[Paper](https://nips.cc/virtual/2024/poster/93277)|
+|Improved Bound for Robust Causal Bandits with Linear Models | ISIT| | | | | 2024 |[Paper](https://arxiv.org/pdf/2405.07795v1)|
+|Graph Identification and Upper Confidence Evaluation for Causal Bandits with Linear Models | ICASSP| | | | | 2024 |[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10445823)|
+|Causal Contextual Bandits with Adaptive Context | arXiv| | | | | 2024 |[Paper](https://arxiv.org/pdf/2405.18626)|
+|Adversarial Causal Bayesian Optimization | ICLR| | | | | 2024 |[Paper](https://openreview.net/pdf?id=YcW8i9VCf5)|
+|Model-based causal Bayesian optimization | ICLR| | | | | 2023 |[Paper](https://arxiv.org/pdf/2211.10257)|
+|Bandits with unobserved confounders: A causal approach | NeurIPS| | | | | 2015 |[Paper](https://proceedings.neurips.cc/paper/2015/hash/795c7a7a5ec6b460ec00c5841019b9e9-Abstract.html)|
+|Identifying best interventions through online importance sampling| ICML| | | | | 2017 |[Paper](https://proceedings.mlr.press/v70/sen17a.html)|
+|Regret analysis of bandit problems with causal background knowledge| UAI| | | | | 2020 |[Paper](https://proceedings.mlr.press/v124/lu20a.html)|
+|Budgeted and non-budgeted causal bandits| AISTATS| | | | | 2021 |[Paper](https://proceedings.mlr.press/v130/nair21a.html)|
+|Causal bandits with propagating inference| ICML | | | | | 2018 |[Paper](https://proceedings.mlr.press/v80/yabe18a.html)|
+|A causal bandit approach to learning good atomic interventions in presence of unobserved confounders| UAI | | | | | 2022 |[Paper](https://proceedings.mlr.press/v180/maiti22a.html)|
+|Combinatorial Pure Exploration of Causal Bandits| ICLR | | | | | 2023 |[Paper](https://openreview.net/forum?id=pBBsrPzq7aF)|
+|Combinatorial causal bandits| AAAI | | | | | 2023 |[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25917)|
+|Learning Good Interventions in Causal Graphs via Covering| UAI | | | | | 2023 |[Paper](https://dl.acm.org/doi/10.5555/3625834.3626005)|
+|Causal bandits with unknown graph structure| NeurIPS | | | | | 2021 |[Paper](https://proceedings.neurips.cc/paper/2021/hash/d010396ca8abf6ead8cacc2c2f2f26c7-Abstract.html)|
+|Adaptively exploiting d-separators with causal bandits | NeurIPS | | | | | 2022 |[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/801ec05b0aae9fcd2ef35c168bd538e0-Abstract-Conference.html)|
+|Causal bandits without prior knowledge using separating sets | CLeaR| | | | | 2022 |[Paper](https://proceedings.mlr.press/v177/kroon22a.html)|
+|Combinatorial Causal Bandits without Graph Skeleton| arXiv | | | | | 2023 |[Paper](https://arxiv.org/abs/2301.13392)|
+|Causal Bandits without Graph Learning| arXiv | | | | | 2023 |[Paper](https://arxiv.org/abs/2301.11401)|
+|Additive Causal Bandits with Unknown Graph| ICML | | | | | 2023 |[Paper](https://dl.acm.org/doi/10.5555/3618408.3619393)|
+|Causal bandits for linear structural equation models | JMLR| | | | | 2023 |[Paper](https://www.jmlr.org/papers/volume24/22-0969/22-0969.pdf)|
+|Model-based causal Bayesian optimization| ICLR | | | | | 2023 |[Paper](https://iclr.cc/virtual/2023/oral/14239)|
+|Robust Causal Bandits for Linear Models| arXiv | | | | | 2023 |[Paper](https://arxiv.org/abs/2310.19794)|
 
 
 ## Contact
