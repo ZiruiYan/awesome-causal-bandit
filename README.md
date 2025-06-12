@@ -8,11 +8,10 @@
 ### TL;DR
 A *causal bandit* is an extension of the classic multi-armed bandit (MAB) problem that incorporates the concept of causality to make better decisions in uncertain environment. A causal bandit aims to not only maximize rewards but also understand the causal relationships between actions and outcomes. This means it learns how different actions influence future outcomes, potentially leading to more informed, long-term decision-making.
 
-Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$ where $V$ is the set of vertices and $E$ is the set of edges. A directed edge from node $i$ to node $j$ is denoted by ordered tuple $(i,j)$. The set of parents of node $i$ is denoted by ${\rm pa}_i$.
 
 
 ### Data Model
-DAG $\mathcal{G}$ represents a Bayesian network, in which we denote the causal random variable associated with node $i\in V$ by $X_i$. The relationships amont the causal variables $X$ are specified by SEMSs:
+Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$ where $V$ is the set of vertices and $E$ is the set of edges. A directed edge from node $i$ to node $j$ is denoted by ordered tuple $(i,j)$. The set of parents of node $i$ is denoted by ${\rm pa}_i$. DAG $\mathcal{G}$ represents a Bayesian network, in which we denote the causal random variable associated with node $i\in V$ by $X_i$. The relationships amont the causal variables $X$ are specified by SEMSs:
 $$X_i = f(X_{\rm pa(i)})+\epsilon_i, $$
 where $\epsilon_i$ is some noise and $\rm pa(i)$ is the set of parents of node $i$ in $\mathcal{G}$.
 
@@ -33,7 +32,7 @@ The papers can be grouped according to different assumptions.
 |---|---|---|---|---|---|---|---|
 |Linear Causal Bandits: Unknown Graph and Soft Interventions                                | NeurIPS| 2024 | soft      | unknown | Cumulative  Regret | linear SEM | [Paper](https://nips.cc/virtual/2024/poster/95325)|
 |Partial Structure Discovery is Sufficient for No-regret Learning in Causal Bandits         | NeurIPS| 2024 | do        | unknown | Cumulative Regret | | [Paper](https://nips.cc/virtual/2024/poster/93277)|
-|Improved Bound for Robust Causal Bandits with Linear Models                                | ISIT  | 2024  | soft       | known | Cumulative  Regret | Robustness linear SE | [Paper](https://arxiv.org/pdf/2405.07795v1)|
+|Improved Bound for Robust Causal Bandits with Linear Models                                | ISIT  | 2024  | soft       | known | Cumulative  Regret | Robustness linear SEM | [Paper](https://arxiv.org/pdf/2405.07795v1)|
 |Graph Identification and Upper Confidence Evaluation for Causal Bandits with Linear Models | ICASSP| 2024  | soft       | unknown| n.a. | | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10445823)|
 |Causal Contextual Bandits with Adaptive Context                                            | arXiv | 2024  |  atomic do | known  | Simple Regret | | [Paper](https://arxiv.org/pdf/2405.18626)|
 |Causal Bandits with General Causal Models and Interventions                                | AAAI| 2024| soft| known | Cumulative Regret| general SEMs| [Paper](https://proceedings.mlr.press/v238/yan24a/yan24a.pdf)|
