@@ -12,7 +12,9 @@ A *causal bandit* is an extension of the classic multi-armed bandit (MAB) proble
 
 ### Data Model
 Causal Bandit is defined over a Probabilistic Causal Model $\mathcal{G} = (V,E)$ where $V$ is the set of vertices and $E$ is the set of edges. A directed edge from node $i$ to node $j$ is denoted by ordered tuple $(i,j)$. The set of parents of node $i$ is denoted by ${\rm pa}_i$. DAG $\mathcal{G}$ represents a Bayesian network, in which we denote the causal random variable associated with node $i\in V$ by $X_i$. The relationships amont the causal variables $X$ are specified by SEMSs:
+
 $$X_i = f(X_{\rm pa(i)})+\epsilon_i, $$
+
 where $\epsilon_i$ is some noise and $\rm pa(i)$ is the set of parents of node $i$ in $\mathcal{G}$.
 
 ### Reward
@@ -28,7 +30,7 @@ The papers can be grouped according to different assumptions.
 
 
 ## Survey
-Causality in Bandits: A Survey    [paper](https://dl.acm.org/doi/abs/10.1145/3744917)
+Causality in Bandits: A Survey    [Paper](https://dl.acm.org/doi/abs/10.1145/3744917)
 
 ## List of causal bandit papers
 |Title|Venue|Year|Intervention|Graph topology|Metric|Comment|Materials|
