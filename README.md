@@ -53,11 +53,11 @@ Causality in Bandits: A Survey    [Paper](https://dl.acm.org/doi/abs/10.1145/374
 |Causal bandits for linear structural equation models 										| JMLR| 2023 | soft | known | Cumulative Regret | linear SEM | [Paper](https://www.jmlr.org/papers/volume24/22-0969/22-0969.pdf)|
 |A causal bandit approach to learning good atomic interventions in presence of unobserved confounders| UAI | 2022 | atomic do | known | Simple & Cumulative Regret | general SEMs | [Paper](https://proceedings.mlr.press/v180/maiti22a.html)|
 |Adaptively exploiting d-separators with causal bandits | NeurIPS | 2022 | | | | | [Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/801ec05b0aae9fcd2ef35c168bd538e0-Abstract-Conference.html)|
-|Causal bandits without prior knowledge using separating sets | CLeaR| 2022 | | | | | [Paper](https://proceedings.mlr.press/v177/kroon22a.html)|
-|Budgeted and non-budgeted causal bandits| AISTATS| 2021 | | | | | [Paper](https://proceedings.mlr.press/v130/nair21a.html)|
-|Causal bandits with unknown graph structure| NeurIPS | 2021 | | | | | [Paper](https://proceedings.neurips.cc/paper/2021/hash/d010396ca8abf6ead8cacc2c2f2f26c7-Abstract.html)|
-|Regret analysis of bandit problems with causal background knowledge| UAI| 2020 | | | | | [Paper](https://proceedings.mlr.press/v124/lu20a.html)|
-|Structural Causal Bandits with Non-Manipulable Variables| AAAI | 2019 | | | | | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4320)|
+|Causal bandits without prior knowledge using separating sets         | CLeaR| 2022 | | | | | [Paper](https://proceedings.mlr.press/v177/kroon22a.html)|
+|Budgeted and non-budgeted causal bandits                    | AISTATS| 2021 | do | known | Cumulative Regret | | [Paper](https://proceedings.mlr.press/v130/nair21a.html)|
+|Causal bandits with unknown graph structure| NeurIPS | 2021 | do | unknown | Cumulative Regret | | [Paper](https://proceedings.neurips.cc/paper/2021/hash/d010396ca8abf6ead8cacc2c2f2f26c7-Abstract.html)|
+|Regret analysis of bandit problems with causal background knowledge| UAI| 2020 | do | known | Cumulative Regret | | [Paper](https://proceedings.mlr.press/v124/lu20a.html)|
+|Structural Causal Bandits with Non-Manipulable Variables| AAAI | 2019 | do | | | | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4320)|
 |Causal bandits with propagating inference| ICML | 2018 | | | | | [Paper](https://proceedings.mlr.press/v80/yabe18a.html)|
 |Identifying best interventions through online importance sampling| ICML| 2017 | | | | | [Paper](https://proceedings.mlr.press/v70/sen17a.html)|
 |Causal bandits: Learning good interventions via causal inference                   | NeurIPS| 2016 | do | known | Simple Regret | | [Paper](https://proceedings.neurips.cc/paper/2016/hash/b4288d9c0ec0a1841b3b3728321e7088-Abstract.html)|
